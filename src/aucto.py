@@ -45,7 +45,7 @@ def define_color(color):
 
 # colors
 darker_grey = define_color((85, 85, 90))
-light_purple = define_color((187, 134, 252))
+light_purple = define_color((255,255,255))#define_color((187, 134, 252))
 darker_purple = define_color((55, 0, 188))
 cyan = define_color((3, 218, 198))
 
@@ -56,9 +56,9 @@ class main():
         # Menu:
         self.open_File = None
         self.savedFile = True
-        menubar = Menu()
+        menubar = Menu(root, background=darker_grey)
         root.config(menu=menubar)
-        menubar.config(bg=darker_grey, fg="white", activebackground=light_purple, activeforeground="white")
+        menubar.config(fg="white", activebackground=darker_grey, activeforeground="white")
 
         # Stylizing
         global can
@@ -68,10 +68,11 @@ class main():
 
         # Tree stylizing
         style = ttk.Style(root)
-        style.configure("My.Treeview", background=darker_grey, foreground=light_purple)
+        style.theme_use("clam")
+        style.configure("My.Treeview", background=darker_grey, foreground=light_purple, fieldbackground=darker_grey)
 
         # main area setup
-        self.mainArea = Text(root, wrap= WORD)
+        self.mainArea = Text(root, wrap= WORD,  background=darker_grey, foreground=light_purple, tabs=('0.3i', '0.8i', RIGHT, '1.2i', CENTER, '2i', NUMERIC))
         self.mainArea.place(x=int(width*0.12), y=0, width=int(width*0.88), height=int(height))
 
         # scrollbar
@@ -82,7 +83,8 @@ class main():
 
         # Tree setup
         global tree
-        tree = ttk.Treeview(root)
+        tree = ttk.Treeview(root, show='tree')
+        tree.heading("#0", text="", anchor="w")
         tree.tag_configure("row", background=darker_grey)
         tree.place(x=0, y=0, width=int(width*0.12), height=height)
         tree.bind('<Button-1>', self.openFile)
