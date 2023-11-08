@@ -1,3 +1,6 @@
+PHYSICAL MEDAL/AWARD COUNTER: 6
+NON-PHYSICAL MEDAL/AWARD COUNTER: 1
+
 Extracirriculars sorted from most to least important:
 
 USACO(HARD SKILL WISE)/USEF(MEDIUM? SKILL WISE)
@@ -10,17 +13,6 @@ Meetings every Tuesday and Thursday
 FBLA:(HARD TIME WISE)
 Computer Problem Solving(Testing)
 Cyber Security(Testing)
-	• Defend and attack (virus, spam, spyware)
-	• Network security
-	• Disaster recovery
-	• Email security
-	• Intrusion detection
-	• Authentication
-	• Public key
-	• Physical security
-	• Cryptography
-	• Forensics security
-	• Cyber security policy
 Computer Applications(Testing&Production)
 Coding & Programming(Presentation)
 Website Coding & Development(Presentation)
@@ -28,7 +20,12 @@ Mobile Application Development(Presentation)
 
 
 DEADLINE/COMP TIMES:
+Aggie Invitational(Utah State University), 10/17
+	Job Interview - 1st
 FBLA State Prep(VIRTUAL), 10/16-10/27
+	Computer Applications - DNF
+	Cyber Security - DNF
+	Computer Problem Solving - DNF
 Herriman Invitational(Location TBD), Date TBD
 FBLA Regions(U of U(?)/SLC(?)), 12/8
 FBLA Week(VITRUAL), 2/4-2/10
@@ -40,6 +37,7 @@ Apparrel & Accesories under Marketing
 
 DEADLINE/COMP TIMES:
 Aggie Invitational(Utah State University), 10/17
+	Buisness Finance - 3rd, No Medal
 DECA Regions(SLCC Taylorsville Campus), 12/15
 DECA State Competition(Davis Convention Center), 2/22-2/23
 DECA ICDC(Anaheim, CA), 4/26-5/1
